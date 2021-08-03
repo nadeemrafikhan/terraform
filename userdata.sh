@@ -1,0 +1,59 @@
+#! /usr/bin/sh
+
+
+yum install httpd -y
+systemctl start httpd
+systemctl enable httpd
+echo '<h1> Deployed by Terraform!!!! </h1>' > /var/www/html/index.html
+
+echo '
+-----BEGIN RSA PRIVATE KEY-----
+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
+-----END RSA PRIVATE KEY-----' >/home/ec2-user/login.pem
+
+chmod 400 /home/ec2-user/login.pem
+
+
+## setup passwordless authentication
+
+sed -i 's/#PermitRootLogin yes/PermitRootLogin yes/g' /etc/ssh/sshd_config
+sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+systemctl restart sshd
+
+echo "root123" | passwd --stdin root
