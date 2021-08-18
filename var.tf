@@ -1,4 +1,4 @@
-variable "region" { default = "ap-south-1"}
+variable "region" { default = "ap-south-1" }
 
 variable "cidr_block" { default = "190.160.0.0/16"}
 

@@ -14,7 +14,7 @@ resource "aws_key_pair" "tf_demo" {
   user_data = "${file("userdata.sh")}"
   #security_groups = [aws_security_group.sg.id]
   vpc_security_group_ids =  ["${aws_security_group.sg.id}"]
-  most_recent = true
+  #most_recent = true
   #lifecycle {
    # create_before_destroy = true
   #}
