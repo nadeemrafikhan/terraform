@@ -1,4 +1,8 @@
 "# terraform" 
+1 st commit
+2 st commit
+4 st commit
+
 Install aws cli for windows/mac etc
 configure with acceddid and Key with : aws configure
 downlaod and install terraform
